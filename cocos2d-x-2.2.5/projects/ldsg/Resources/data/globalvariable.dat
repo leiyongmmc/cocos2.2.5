@@ -1,6 +1,0 @@
-变量名	变量值	名称
-Key	Value	Description
-Logo_Fadein_Time	0.5	Logo淡入时间
-Logo_Fadeout_Time	0.5	Logo淡出时间
-Logo_Stay_Time	1	Logo持续时间
-Transition_Time	0.01	切入加载资源场景的过度时间
