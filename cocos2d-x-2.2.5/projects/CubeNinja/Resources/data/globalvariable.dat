@@ -1,0 +1,5 @@
+名称	变量名	变量值
+Name	Key	Value
+Logo淡入时间	Logo_Fadein_Time	0.5
+Logo淡出时间	Logo_Fadeout_Time	0.5
+Logo持续时间	Logo_Stay_Time	1

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\global">
+      <UniqueIdentifier>{5838c022-b017-4cf9-9294-31b7b0952970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\log">
+      <UniqueIdentifier>{6daf2d00-afb3-49fb-b781-1dec383929fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\datasets">
+      <UniqueIdentifier>{8382f758-ce4e-42fe-9097-a2f4cad67153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\utils">
+      <UniqueIdentifier>{c2fe2e01-7bf4-45f6-b4b5-82af3732e865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\loginscene">
+      <UniqueIdentifier>{4be4cd27-1acd-49d6-86c6-4645b4b70189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\preloginscene">
+      <UniqueIdentifier>{d19c5139-3dd6-4725-8112-29a138b529cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\sound">
+      <UniqueIdentifier>{341d9c83-8173-419c-a592-fdcb22932007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\uiframe">
+      <UniqueIdentifier>{37c971ee-ba7a-41a2-8a69-7342cd6eeded}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\global\StopWath.cpp">
+      <Filter>game\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\log\Log.cpp">
+      <Filter>game\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datasets\DataSetsManager.cpp">
+      <Filter>game\datasets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\FileUtils.cpp">
+      <Filter>game\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\StringUtils.cpp">
+      <Filter>game\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loginscene\LoginPanel.cpp">
+      <Filter>game\loginscene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loginscene\LoginScene.cpp">
+      <Filter>game\loginscene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\preLoginscene\PreLoginScene.cpp">
+      <Filter>game\preloginscene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sound\SoundManager.cpp">
+      <Filter>game\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\uiframe\BasePanel.cpp">
+      <Filter>game\uiframe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\uiframe\UiManager.cpp">
+      <Filter>game\uiframe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\global\Config.h">
+      <Filter>game\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\global\StopWath.h">
+      <Filter>game\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\log\Log.h">
+      <Filter>game\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\BaseData.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\DataInclude.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\DataSetsManager.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\GameVariableCfg.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\ResolutionCfg.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\ResourceCfg.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\ResourceDirCfg.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datasets\SoundCfg.h">
+      <Filter>game\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\FileUtils.h">
+      <Filter>game\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\StringUtils.h">
+      <Filter>game\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loginscene\LoginPanel.h">
+      <Filter>game\loginscene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loginscene\LoginScene.h">
+      <Filter>game\loginscene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\preLoginscene\PreLoginScene.h">
+      <Filter>game\preloginscene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sound\SoundManager.h">
+      <Filter>game\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\uiframe\BasePanel.h">
+      <Filter>game\uiframe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\uiframe\UiManager.h">
+      <Filter>game\uiframe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\uiframe\UiSceneObj.h">
+      <Filter>game\uiframe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\global\GlobalResource.h">
+      <Filter>game\global</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

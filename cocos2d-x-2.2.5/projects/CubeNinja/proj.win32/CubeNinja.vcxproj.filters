@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\PreLoginScene">
+      <UniqueIdentifier>{dabb68e6-08a0-4a5d-8f15-423cbde016aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LoginScene">
+      <UniqueIdentifier>{3284247d-abea-4352-b055-c89a8c760c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global">
+      <UniqueIdentifier>{2cf3beb6-15e4-44f4-af18-a137df4d1ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DataSets">
+      <UniqueIdentifier>{540c8436-c3c0-4e74-9d5d-aaf1a234fd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sound">
+      <UniqueIdentifier>{1b71d358-4f57-41f4-9da5-f4f61e6fd5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{8275f7a8-26f6-4cce-8d59-76456660be48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UiFrame">
+      <UniqueIdentifier>{1c85a498-c152-447e-b3dd-3a44d3607dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Log">
+      <UniqueIdentifier>{4e566643-2f58-4e54-ae66-83daa14d8540}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PreLoginScene\PreLoginScene.cpp">
+      <Filter>Classes\PreLoginScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginScene\LoginScene.cpp">
+      <Filter>Classes\LoginScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataSets\DataSetsManager.cpp">
+      <Filter>Classes\DataSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\SoundManager.cpp">
+      <Filter>Classes\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\FileUtils.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\StringUtils.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginScene\LoginPanel.cpp">
+      <Filter>Classes\LoginScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiFrame\BasePanel.cpp">
+      <Filter>Classes\UiFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\StopWath.cpp">
+      <Filter>Classes\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Log\Log.cpp">
+      <Filter>Classes\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PreLoginScene\PreLoginScene.h">
+      <Filter>Classes\PreLoginScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene\LoginScene.h">
+      <Filter>Classes\LoginScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\ResourceDir.h">
+      <Filter>Classes\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\BaseData.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\DataInclude.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\DataSetsManager.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\ResolutionCfg.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\SoundCfg.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\SoundManager.h">
+      <Filter>Classes\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\FileUtils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\StringUtils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\GameVariableCfg.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\ResourceCfg.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataSets\ResourceDirCfg.h">
+      <Filter>Classes\DataSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene\LoginPanel.h">
+      <Filter>Classes\LoginScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\Config.h">
+      <Filter>Classes\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiFrame\BasePanel.h">
+      <Filter>Classes\UiFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\StopWath.h">
+      <Filter>Classes\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiFrame\UiSceneObj.h">
+      <Filter>Classes\UiFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Log\Log.h">
+      <Filter>Classes\Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
